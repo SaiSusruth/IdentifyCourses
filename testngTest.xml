@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite >
+<suite name="Suite">
+
+  
+   <parameter name="browser" value="chrome" /> 
+  <test thread-count="5" name="Test">
+    <classes>
+      
+      <class name="TestCases.TC_01WebDevelopmentCourses"/>
+      <class name="TestCases.TC_02LanguageLearning"/>
+      <class name="TestCases.TC_03FillingForm"/>
+    </classes>
+  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

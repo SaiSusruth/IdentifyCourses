@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="15" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-04T13:18:07 IST" name="Suite" finished-at="2024-03-04T13:19:40 IST" duration-ms="93209">
+    <groups>
+      <group name="regression">
+        <method signature="TC_02LanguageLearning.lang_learn()[pri:5, instance:TestCases.TC_02LanguageLearning@2b40ff9c]" name="lang_learn" class="TestCases.TC_02LanguageLearning"/>
+        <method signature="TC_02LanguageLearning.levels()[pri:6, instance:TestCases.TC_02LanguageLearning@2b40ff9c]" name="levels" class="TestCases.TC_02LanguageLearning"/>
+        <method signature="TC_02LanguageLearning.languages()[pri:7, instance:TestCases.TC_02LanguageLearning@2b40ff9c]" name="languages" class="TestCases.TC_02LanguageLearning"/>
+        <method signature="TC_02LanguageLearning.enterprise()[pri:8, instance:TestCases.TC_02LanguageLearning@2b40ff9c]" name="enterprise" class="TestCases.TC_02LanguageLearning"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC_01WebDevelopmentCourses.search()[pri:0, instance:TestCases.TC_01WebDevelopmentCourses@5890e879]" name="search" class="TestCases.TC_01WebDevelopmentCourses"/>
+        <method signature="TC_01WebDevelopmentCourses.filters()[pri:1, instance:TestCases.TC_01WebDevelopmentCourses@5890e879]" name="filters" class="TestCases.TC_01WebDevelopmentCourses"/>
+        <method signature="TC_01WebDevelopmentCourses.courses()[pri:2, instance:TestCases.TC_01WebDevelopmentCourses@5890e879]" name="courses" class="TestCases.TC_01WebDevelopmentCourses"/>
+        <method signature="TC_01WebDevelopmentCourses.firstcourse()[pri:3, instance:TestCases.TC_01WebDevelopmentCourses@5890e879]" name="firstcourse" class="TestCases.TC_01WebDevelopmentCourses"/>
+        <method signature="TC_01WebDevelopmentCourses.secondcourse()[pri:4, instance:TestCases.TC_01WebDevelopmentCourses@5890e879]" name="secondcourse" class="TestCases.TC_01WebDevelopmentCourses"/>
+        <method signature="TC_02LanguageLearning.enterprise()[pri:8, instance:TestCases.TC_02LanguageLearning@2b40ff9c]" name="enterprise" class="TestCases.TC_02LanguageLearning"/>
+        <method signature="TC_03FillingForm.form()[pri:9, instance:TestCases.TC_03FillingForm@3e08ff24]" name="form" class="TestCases.TC_03FillingForm"/>
+        <method signature="TC_03FillingForm.error_msg()[pri:10, instance:TestCases.TC_03FillingForm@3e08ff24]" name="error_msg" class="TestCases.TC_03FillingForm"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2024-03-04T13:18:07 IST" name="Test" finished-at="2024-03-04T13:19:40 IST" duration-ms="93209">
+      <class name="TestCases.TC_03FillingForm">
+        <test-method signature="form()[pri:9, instance:TestCases.TC_03FillingForm@3e08ff24]" started-at="2024-03-04T13:19:33 IST" name="form" finished-at="2024-03-04T13:19:38 IST" duration-ms="4523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- form -->
+        <test-method signature="error_msg()[pri:10, instance:TestCases.TC_03FillingForm@3e08ff24]" started-at="2024-03-04T13:19:38 IST" name="error_msg" finished-at="2024-03-04T13:19:38 IST" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- error_msg -->
+      </class> <!-- TestCases.TC_03FillingForm -->
+      <class name="TestCases.TC_01WebDevelopmentCourses">
+        <test-method is-config="true" signature="driver_setup(java.lang.String)[pri:0, instance:TestCases.TC_01WebDevelopmentCourses@5890e879]" started-at="2024-03-04T13:18:07 IST" name="driver_setup" finished-at="2024-03-04T13:18:33 IST" duration-ms="26015" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driver_setup -->
+        <test-method signature="search()[pri:0, instance:TestCases.TC_01WebDevelopmentCourses@5890e879]" started-at="2024-03-04T13:18:34 IST" name="search" finished-at="2024-03-04T13:18:42 IST" duration-ms="8364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="filters()[pri:1, instance:TestCases.TC_01WebDevelopmentCourses@5890e879]" started-at="2024-03-04T13:18:42 IST" name="filters" finished-at="2024-03-04T13:18:46 IST" duration-ms="3487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filters -->
+        <test-method signature="courses()[pri:2, instance:TestCases.TC_01WebDevelopmentCourses@5890e879]" started-at="2024-03-04T13:18:46 IST" name="courses" finished-at="2024-03-04T13:18:52 IST" duration-ms="5646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- courses -->
+        <test-method signature="firstcourse()[pri:3, instance:TestCases.TC_01WebDevelopmentCourses@5890e879]" started-at="2024-03-04T13:18:52 IST" name="firstcourse" finished-at="2024-03-04T13:18:52 IST" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstcourse -->
+        <test-method signature="secondcourse()[pri:4, instance:TestCases.TC_01WebDevelopmentCourses@5890e879]" started-at="2024-03-04T13:18:52 IST" name="secondcourse" finished-at="2024-03-04T13:18:52 IST" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondcourse -->
+        <test-method is-config="true" signature="close_browser()[pri:0, instance:TestCases.TC_01WebDevelopmentCourses@5890e879]" started-at="2024-03-04T13:19:39 IST" name="close_browser" finished-at="2024-03-04T13:19:40 IST" duration-ms="1263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- TestCases.TC_01WebDevelopmentCourses -->
+      <class name="TestCases.TC_02LanguageLearning">
+        <test-method signature="lang_learn()[pri:5, instance:TestCases.TC_02LanguageLearning@2b40ff9c]" started-at="2024-03-04T13:18:53 IST" name="lang_learn" finished-at="2024-03-04T13:19:00 IST" duration-ms="6865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lang_learn -->
+        <test-method signature="levels()[pri:6, instance:TestCases.TC_02LanguageLearning@2b40ff9c]" started-at="2024-03-04T13:19:00 IST" name="levels" finished-at="2024-03-04T13:19:01 IST" duration-ms="1122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- levels -->
+        <test-method signature="languages()[pri:7, instance:TestCases.TC_02LanguageLearning@2b40ff9c]" started-at="2024-03-04T13:19:01 IST" name="languages" finished-at="2024-03-04T13:19:05 IST" duration-ms="3941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- languages -->
+        <test-method signature="enterprise()[pri:8, instance:TestCases.TC_02LanguageLearning@2b40ff9c]" started-at="2024-03-04T13:19:06 IST" name="enterprise" finished-at="2024-03-04T13:19:33 IST" duration-ms="26958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterprise -->
+      </class> <!-- TestCases.TC_02LanguageLearning -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

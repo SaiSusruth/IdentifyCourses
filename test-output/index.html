@@ -1,0 +1,1220 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 13 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-mysuite" class="navigator-link">
+              <span class="suite-name border-failed">mysuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-mysuite" class="navigator-link ">
+                    <span>C:\Users\2304068\eclipse-workspace\IdentifyCourses\parallel.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-mysuite" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-mysuite" class="navigator-link ">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-mysuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-mysuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-mysuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-mysuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">22 methods, 13 failed,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-mysuite" class="hide-methods failed suite-mysuite"> (hide)</a> <!-- hide-methods failed suite-mysuite -->
+                      <a href="#" panel-name="suite-mysuite" class="show-methods failed suite-mysuite"> (show)</a> <!-- show-methods failed suite-mysuite -->
+                    </span>
+                    <div class="method-list-content failed suite-mysuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuite" title="TestCases.TC_01WebDevelopmentCourses" class="method navigator-link" hash-for-method="courses">courses</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuite" title="TestCases.TC_01WebDevelopmentCourses" class="method navigator-link" hash-for-method="courses">courses</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuite" title="TestCases.TC_02LanguageLearning" class="method navigator-link" hash-for-method="enterprise">enterprise</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuite" title="TestCases.TC_02LanguageLearning" class="method navigator-link" hash-for-method="enterprise">enterprise</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuite" title="TestCases.TC_03FillingForm" class="method navigator-link" hash-for-method="error_msg">error_msg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuite" title="TestCases.TC_03FillingForm" class="method navigator-link" hash-for-method="error_msg">error_msg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuite" title="TestCases.TC_03FillingForm" class="method navigator-link" hash-for-method="form">form</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuite" title="TestCases.TC_03FillingForm" class="method navigator-link" hash-for-method="form">form</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuite" title="TestCases.TC_02LanguageLearning" class="method navigator-link" hash-for-method="languages">languages</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuite" title="TestCases.TC_02LanguageLearning" class="method navigator-link" hash-for-method="languages">languages</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuite" title="TestCases.TC_02LanguageLearning" class="method navigator-link" hash-for-method="levels">levels</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuite" title="TestCases.TC_02LanguageLearning" class="method navigator-link" hash-for-method="levels">levels</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuite" title="TestCases.TC_01WebDevelopmentCourses" class="method navigator-link" hash-for-method="search">search</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-mysuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-mysuite" class="hide-methods passed suite-mysuite"> (hide)</a> <!-- hide-methods passed suite-mysuite -->
+                      <a href="#" panel-name="suite-mysuite" class="show-methods passed suite-mysuite"> (show)</a> <!-- show-methods passed suite-mysuite -->
+                    </span>
+                    <div class="method-list-content passed suite-mysuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuite" title="TestCases.TC_01WebDevelopmentCourses" class="method navigator-link" hash-for-method="filters">filters</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuite" title="TestCases.TC_01WebDevelopmentCourses" class="method navigator-link" hash-for-method="filters">filters</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuite" title="TestCases.TC_01WebDevelopmentCourses" class="method navigator-link" hash-for-method="firstcourse">firstcourse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuite" title="TestCases.TC_01WebDevelopmentCourses" class="method navigator-link" hash-for-method="firstcourse">firstcourse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuite" title="TestCases.TC_02LanguageLearning" class="method navigator-link" hash-for-method="lang_learn">lang_learn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuite" title="TestCases.TC_02LanguageLearning" class="method navigator-link" hash-for-method="lang_learn">lang_learn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuite" title="TestCases.TC_01WebDevelopmentCourses" class="method navigator-link" hash-for-method="search">search</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuite" title="TestCases.TC_01WebDevelopmentCourses" class="method navigator-link" hash-for-method="secondcourse">secondcourse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuite" title="TestCases.TC_01WebDevelopmentCourses" class="method navigator-link" hash-for-method="secondcourse">secondcourse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-mysuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-mysuite" class="panel mysuite">
+          <div class="suite-mysuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestCases.TC_03FillingForm</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="error_msg">
+                  </a> <!-- error_msg -->
+                  <span class="method-name">error_msg</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;ValidMsgEmail&apos;]&quot;}
+  (Session info: MicrosoftEdge=121.0.2277.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [1a2a601279f6bbafd22cc31c7f1cf1e2, findElement {using=xpath, value=//*[@id=&apos;ValidMsgEmail&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 121.0.2277.128, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63064}, msedge: {msedgedriverVersion: 121.0.2277.128 (33d347b6876..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63064/devtoo..., se:cdpVersion: 121.0.2277.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1a2a601279f6bbafd22cc31c7f1cf1e2
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.getText(Unknown Source)
+	at PageObjects.FormPage.Errormsg(FormPage.java:98)
+	at TestCases.TC_03FillingForm.error_msg(TC_03FillingForm.java:45)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="error_msg">
+                  </a> <!-- error_msg -->
+                  <span class="method-name">error_msg</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;ValidMsgEmail&apos;]&quot;}
+  (Session info: MicrosoftEdge=121.0.2277.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [1a2a601279f6bbafd22cc31c7f1cf1e2, findElement {using=xpath, value=//*[@id=&apos;ValidMsgEmail&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 121.0.2277.128, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63064}, msedge: {msedgedriverVersion: 121.0.2277.128 (33d347b6876..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63064/devtoo..., se:cdpVersion: 121.0.2277.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1a2a601279f6bbafd22cc31c7f1cf1e2
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.getText(Unknown Source)
+	at PageObjects.FormPage.Errormsg(FormPage.java:98)
+	at TestCases.TC_03FillingForm.error_msg(TC_03FillingForm.java:45)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="form">
+                  </a> <!-- form -->
+                  <span class="method-name">form</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=121.0.2277.128)
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [1a2a601279f6bbafd22cc31c7f1cf1e2, sendKeysToElement {id=1BB1617923B5CD75C44968EA37E56F5F_element_205, value=[Ljava.lang.CharSequence;@52a94793}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 121.0.2277.128, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63064}, msedge: {msedgedriverVersion: 121.0.2277.128 (33d347b6876..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63064/devtoo..., se:cdpVersion: 121.0.2277.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (1a2a601279f6bbafd22cc31c7f1cf1e2)] -&gt; id: FirstName]
+Session ID: 1a2a601279f6bbafd22cc31c7f1cf1e2
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:111)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.sendKeys(Unknown Source)
+	at PageObjects.FormPage.Firstname(FormPage.java:44)
+	at TestCases.TC_03FillingForm.form(TC_03FillingForm.java:22)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="form">
+                  </a> <!-- form -->
+                  <span class="method-name">form</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=121.0.2277.128)
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [1a2a601279f6bbafd22cc31c7f1cf1e2, sendKeysToElement {id=1BB1617923B5CD75C44968EA37E56F5F_element_205, value=[Ljava.lang.CharSequence;@4eeb9358}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 121.0.2277.128, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63064}, msedge: {msedgedriverVersion: 121.0.2277.128 (33d347b6876..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63064/devtoo..., se:cdpVersion: 121.0.2277.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (1a2a601279f6bbafd22cc31c7f1cf1e2)] -&gt; id: FirstName]
+Session ID: 1a2a601279f6bbafd22cc31c7f1cf1e2
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:111)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.sendKeys(Unknown Source)
+	at PageObjects.FormPage.Firstname(FormPage.java:44)
+	at TestCases.TC_03FillingForm.form(TC_03FillingForm.java:22)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-mysuite-class-failed -->
+          <div class="suite-mysuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestCases.TC_01WebDevelopmentCourses</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="courses">
+                  </a> <!-- courses -->
+                  <span class="method-name">courses</span>
+                  <div class="stack-trace">org.apache.poi.openxml4j.exceptions.OpenXML4JRuntimeException: Fail to save: an error occurs while saving the package : WRONG_DOCUMENT_ERR: A node is used in a different document than the one that created it.
+	at org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:643)
+	at org.apache.poi.openxml4j.opc.OPCPackage.save(OPCPackage.java:1532)
+	at org.apache.poi.ooxml.POIXMLDocument.write(POIXMLDocument.java:227)
+	at Utility.excel.setcelldata(excel.java:34)
+	at TestCases.TC_01WebDevelopmentCourses.courses(TC_01WebDevelopmentCourses.java:51)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.w3c.dom.DOMException: WRONG_DOCUMENT_ERR: A node is used in a different document than the one that created it.
+	at java.xml/com.sun.org.apache.xerces.internal.dom.ParentNode.internalInsertBefore(ParentNode.java:355)
+	at java.xml/com.sun.org.apache.xerces.internal.dom.ParentNode.insertBefore(ParentNode.java:286)
+	at java.xml/com.sun.org.apache.xerces.internal.dom.CoreDocumentImpl.insertBefore(CoreDocumentImpl.java:447)
+	at java.xml/com.sun.org.apache.xerces.internal.dom.NodeImpl.appendChild(NodeImpl.java:230)
+	at org.apache.poi.openxml4j.opc.internal.marshallers.PackagePropertiesMarshaller.marshall(PackagePropertiesMarshaller.java:107)
+	at org.apache.poi.openxml4j.opc.internal.marshallers.ZipPackagePropertiesMarshaller.marshall(ZipPackagePropertiesMarshaller.java:51)
+	at org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:629)
+	... 26 more
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="courses">
+                  </a> <!-- courses -->
+                  <span class="method-name">courses</span>
+                  <div class="stack-trace">org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file
+	at org.apache.poi.openxml4j.util.ZipArchiveThresholdInputStream.getNextEntry(ZipArchiveThresholdInputStream.java:159)
+	at org.apache.poi.openxml4j.util.ZipInputStreamZipEntrySource.&lt;init&gt;(ZipInputStreamZipEntrySource.java:94)
+	at org.apache.poi.openxml4j.opc.ZipPackage.&lt;init&gt;(ZipPackage.java:157)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:351)
+	at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:64)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:313)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:287)
+	at Utility.excel.setcelldata(excel.java:24)
+	at TestCases.TC_01WebDevelopmentCourses.courses(TC_01WebDevelopmentCourses.java:58)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.util.zip.ZipException: Unexpected record signature: 0xbd216f8a
+	at org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.getNextZipEntry(ZipArchiveInputStream.java:770)
+	at org.apache.poi.openxml4j.util.ZipArchiveThresholdInputStream.getNextEntry(ZipArchiveThresholdInputStream.java:150)
+	... 30 more
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="search">
+                  </a> <!-- search -->
+                  <span class="method-name">search</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: MicrosoftEdge=121.0.2277.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [1a2a601279f6bbafd22cc31c7f1cf1e2, clickElement {id=045B16BF4A603285170580ACD85E17B4_element_28}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 121.0.2277.128, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63064}, msedge: {msedgedriverVersion: 121.0.2277.128 (33d347b6876..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63064/devtoo..., se:cdpVersion: 121.0.2277.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (1a2a601279f6bbafd22cc31c7f1cf1e2)] -&gt; xpath: //button[@class=&apos;nostyle search-button&apos;]//div[@class=&apos;magnifier-wrapper&apos;]]
+Session ID: 1a2a601279f6bbafd22cc31c7f1cf1e2
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+	at PageObjects.WebDevelopmentSearchPage.search_btn(WebDevelopmentSearchPage.java:33)
+	at TestCases.TC_01WebDevelopmentCourses.search(TC_01WebDevelopmentCourses.java:29)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-mysuite-class-failed -->
+          <div class="suite-mysuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestCases.TC_02LanguageLearning</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterprise">
+                  </a> <!-- enterprise -->
+                  <span class="method-name">enterprise</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;p class=&quot;cds-119 css-1cg99il cds-121&quot;&gt;...&lt;/p&gt; is not clickable at point (920, 427). Other element would receive the click: &lt;iframe class=&quot;drift-frame-controller&quot; scrolling=&quot;no&quot; title=&quot;Drift Widget Chat Controller&quot; allow=&quot;autoplay; encrypted-media; fullscreen;&quot; frameborder=&quot;0&quot; src=&quot;https://js.driftt.com/core?d=1&amp;amp;embedId=mpta5ez37rme&amp;amp;eId=mpta5ez37rme&amp;amp;region=US&amp;amp;forceShow=false&amp;amp;skipCampaigns=false&amp;amp;sessionId=40bc2827-e607-43d3-abec-ad06c5bf4e57&amp;amp;sessionStarted=1708682922.769&amp;amp;campaignRefreshToken=629ea13d-52a4-41ff-8d0e-daa7f0b10f52&amp;amp;hideController=false&amp;amp;pageLoadStartTime=1708682882071&amp;amp;mode=CHAT&amp;amp;driftEnableLog=false&amp;amp;secureIframe=false&amp;amp;u=https%3A%2F%2Fwww.coursera.org%2Fbusiness%3Futm_content%3Dcorp-to-home-for-enterprise%26utm_campaign%3Dwebsite%26utm_medium%3Dcoursera%26utm_source%3Dheader%26utm_term%3Db-out&quot; style=&quot;background: transparent; width: 360px; max-width: 100%; height: 100px; border: none;&quot;&gt;&lt;/iframe&gt;
+  (Session info: MicrosoftEdge=121.0.2277.128)
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [1a2a601279f6bbafd22cc31c7f1cf1e2, clickElement {id=1BB1617923B5CD75C44968EA37E56F5F_element_204}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 121.0.2277.128, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63064}, msedge: {msedgedriverVersion: 121.0.2277.128 (33d347b6876..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63064/devtoo..., se:cdpVersion: 121.0.2277.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (1a2a601279f6bbafd22cc31c7f1cf1e2)] -&gt; xpath: //p[normalize-space()=&apos;Coursera for Campus&apos;]]
+Session ID: 1a2a601279f6bbafd22cc31c7f1cf1e2
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+	at PageObjects.LanguageLearningPage.solutions(LanguageLearningPage.java:84)
+	at TestCases.TC_02LanguageLearning.enterprise(TC_02LanguageLearning.java:89)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterprise">
+                  </a> <!-- enterprise -->
+                  <span class="method-name">enterprise</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;rendered-content&quot;]/div/div/span/div[1]/header/div[1]/div/div/div[1]/div[1]/div/div/div/div/div/div/a[2]&quot;}
+  (Session info: MicrosoftEdge=121.0.2277.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [1a2a601279f6bbafd22cc31c7f1cf1e2, findElement {using=xpath, value=//*[@id=&quot;rendered-content&quot;]/div/div/span/div[1]/header/div[1]/div/div/div[1]/div[1]/div/div/div/div/div/div/a[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 121.0.2277.128, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63064}, msedge: {msedgedriverVersion: 121.0.2277.128 (33d347b6876..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63064/devtoo..., se:cdpVersion: 121.0.2277.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1a2a601279f6bbafd22cc31c7f1cf1e2
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:51)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:470)
+	at TestCases.TC_02LanguageLearning.enterprise(TC_02LanguageLearning.java:86)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="languages">
+                  </a> <!-- languages -->
+                  <span class="method-name">languages</span>
+                  <div class="stack-trace">org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file
+	at org.apache.poi.openxml4j.util.ZipArchiveThresholdInputStream.getNextEntry(ZipArchiveThresholdInputStream.java:159)
+	at org.apache.poi.openxml4j.util.ZipInputStreamZipEntrySource.&lt;init&gt;(ZipInputStreamZipEntrySource.java:94)
+	at org.apache.poi.openxml4j.opc.ZipPackage.&lt;init&gt;(ZipPackage.java:157)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:351)
+	at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:64)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:313)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:287)
+	at Utility.excel.setcelldata(excel.java:24)
+	at TestCases.TC_02LanguageLearning.languages(TC_02LanguageLearning.java:65)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.util.zip.ZipException: Unexpected record signature: 0xbd216f8a
+	at org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.getNextZipEntry(ZipArchiveInputStream.java:770)
+	at org.apache.poi.openxml4j.util.ZipArchiveThresholdInputStream.getNextEntry(ZipArchiveThresholdInputStream.java:150)
+	... 30 more
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="languages">
+                  </a> <!-- languages -->
+                  <span class="method-name">languages</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@aria-label=&apos;Show more Language options&apos;]&quot;}
+  (Session info: MicrosoftEdge=121.0.2277.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [1a2a601279f6bbafd22cc31c7f1cf1e2, findElement {using=xpath, value=//*[@aria-label=&apos;Show more Language options&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 121.0.2277.128, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63064}, msedge: {msedgedriverVersion: 121.0.2277.128 (33d347b6876..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63064/devtoo..., se:cdpVersion: 121.0.2277.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1a2a601279f6bbafd22cc31c7f1cf1e2
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:51)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:470)
+	at TestCases.TC_02LanguageLearning.languages(TC_02LanguageLearning.java:60)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="levels">
+                  </a> <!-- levels -->
+                  <span class="method-name">levels</span>
+                  <div class="stack-trace">org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file
+	at org.apache.poi.openxml4j.util.ZipArchiveThresholdInputStream.getNextEntry(ZipArchiveThresholdInputStream.java:159)
+	at org.apache.poi.openxml4j.util.ZipInputStreamZipEntrySource.&lt;init&gt;(ZipInputStreamZipEntrySource.java:94)
+	at org.apache.poi.openxml4j.opc.ZipPackage.&lt;init&gt;(ZipPackage.java:157)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:351)
+	at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:64)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:313)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:287)
+	at Utility.excel.setcelldata(excel.java:24)
+	at TestCases.TC_02LanguageLearning.levels(TC_02LanguageLearning.java:42)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.util.zip.ZipException: Unexpected record signature: 0xbd216f8a
+	at org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.getNextZipEntry(ZipArchiveInputStream.java:770)
+	at org.apache.poi.openxml4j.util.ZipArchiveThresholdInputStream.getNextEntry(ZipArchiveThresholdInputStream.java:150)
+	... 30 more
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="levels">
+                  </a> <!-- levels -->
+                  <span class="method-name">levels</span>
+                  <div class="stack-trace">org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file
+	at org.apache.poi.openxml4j.util.ZipArchiveThresholdInputStream.getNextEntry(ZipArchiveThresholdInputStream.java:159)
+	at org.apache.poi.openxml4j.util.ZipInputStreamZipEntrySource.&lt;init&gt;(ZipInputStreamZipEntrySource.java:94)
+	at org.apache.poi.openxml4j.opc.ZipPackage.&lt;init&gt;(ZipPackage.java:157)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:351)
+	at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:64)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:313)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:287)
+	at Utility.excel.setcelldata(excel.java:24)
+	at TestCases.TC_02LanguageLearning.levels(TC_02LanguageLearning.java:42)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.util.zip.ZipException: Unexpected record signature: 0xbd216f8a
+	at org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.getNextZipEntry(ZipArchiveInputStream.java:770)
+	at org.apache.poi.openxml4j.util.ZipArchiveThresholdInputStream.getNextEntry(ZipArchiveThresholdInputStream.java:150)
+	... 30 more
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-mysuite-class-failed -->
+          <div class="suite-mysuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.TC_01WebDevelopmentCourses</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="filters">
+                  </a> <!-- filters -->
+                  <span class="method-name">filters</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="filters">
+                  </a> <!-- filters -->
+                  <span class="method-name">filters</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="firstcourse">
+                  </a> <!-- firstcourse -->
+                  <span class="method-name">firstcourse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="firstcourse">
+                  </a> <!-- firstcourse -->
+                  <span class="method-name">firstcourse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="search">
+                  </a> <!-- search -->
+                  <span class="method-name">search</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="secondcourse">
+                  </a> <!-- secondcourse -->
+                  <span class="method-name">secondcourse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="secondcourse">
+                  </a> <!-- secondcourse -->
+                  <span class="method-name">secondcourse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-mysuite-class-passed -->
+          <div class="suite-mysuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.TC_02LanguageLearning</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="lang_learn">
+                  </a> <!-- lang_learn -->
+                  <span class="method-name">lang_learn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="lang_learn">
+                  </a> <!-- lang_learn -->
+                  <span class="method-name">lang_learn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-mysuite-class-passed -->
+        </div> <!-- panel mysuite -->
+        <div panel-name="test-xml-mysuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\2304068\eclipse-workspace\IdentifyCourses\parallel.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;mysuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Utility.extentReports&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;edge test&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCases.TC_01WebDevelopmentCourses&quot;/&gt;
+      &lt;class name=&quot;TestCases.TC_02LanguageLearning&quot;/&gt;
+      &lt;class name=&quot;TestCases.TC_03FillingForm&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- edge test --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;chrome test&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCases.TC_01WebDevelopmentCourses&quot;/&gt;
+      &lt;class name=&quot;TestCases.TC_02LanguageLearning&quot;/&gt;
+      &lt;class name=&quot;TestCases.TC_03FillingForm&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- chrome test --&gt;
+&lt;/suite&gt; &lt;!-- mysuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-mysuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for mysuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">edge test (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">chrome test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-mysuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for mysuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">enterprise</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">lang_learn</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">languages</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">levels</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">courses</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">enterprise</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">error_msg</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">filters</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">firstcourse</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">form</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">search</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">secondcourse</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-mysuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for mysuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_mysuite');
+function tableData_mysuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(22);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'search')
+data.setCell(0, 2, 'TestCases.TC_01WebDevelopmentCourses')
+data.setCell(0, 3, 65943);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'enterprise')
+data.setCell(1, 2, 'TestCases.TC_02LanguageLearning')
+data.setCell(1, 3, 65429);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'search')
+data.setCell(2, 2, 'TestCases.TC_01WebDevelopmentCourses')
+data.setCell(2, 3, 65341);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'levels')
+data.setCell(3, 2, 'TestCases.TC_02LanguageLearning')
+data.setCell(3, 3, 52680);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'form')
+data.setCell(4, 2, 'TestCases.TC_03FillingForm')
+data.setCell(4, 3, 20299);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'error_msg')
+data.setCell(5, 2, 'TestCases.TC_03FillingForm')
+data.setCell(5, 3, 20008);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'enterprise')
+data.setCell(6, 2, 'TestCases.TC_02LanguageLearning')
+data.setCell(6, 3, 11120);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'form')
+data.setCell(7, 2, 'TestCases.TC_03FillingForm')
+data.setCell(7, 3, 10466);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'error_msg')
+data.setCell(8, 2, 'TestCases.TC_03FillingForm')
+data.setCell(8, 3, 10271);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'languages')
+data.setCell(9, 2, 'TestCases.TC_02LanguageLearning')
+data.setCell(9, 3, 10166);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'lang_learn')
+data.setCell(10, 2, 'TestCases.TC_02LanguageLearning')
+data.setCell(10, 3, 8118);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'lang_learn')
+data.setCell(11, 2, 'TestCases.TC_02LanguageLearning')
+data.setCell(11, 3, 7675);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'courses')
+data.setCell(12, 2, 'TestCases.TC_01WebDevelopmentCourses')
+data.setCell(12, 3, 7021);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'filters')
+data.setCell(13, 2, 'TestCases.TC_01WebDevelopmentCourses')
+data.setCell(13, 3, 6088);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'filters')
+data.setCell(14, 2, 'TestCases.TC_01WebDevelopmentCourses')
+data.setCell(14, 3, 5858);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'courses')
+data.setCell(15, 2, 'TestCases.TC_01WebDevelopmentCourses')
+data.setCell(15, 3, 4404);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'secondcourse')
+data.setCell(16, 2, 'TestCases.TC_01WebDevelopmentCourses')
+data.setCell(16, 3, 1036);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'firstcourse')
+data.setCell(17, 2, 'TestCases.TC_01WebDevelopmentCourses')
+data.setCell(17, 3, 869);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'firstcourse')
+data.setCell(18, 2, 'TestCases.TC_01WebDevelopmentCourses')
+data.setCell(18, 3, 742);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'levels')
+data.setCell(19, 2, 'TestCases.TC_02LanguageLearning')
+data.setCell(19, 3, 709);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'secondcourse')
+data.setCell(20, 2, 'TestCases.TC_01WebDevelopmentCourses')
+data.setCell(20, 3, 671);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'languages')
+data.setCell(21, 2, 'TestCases.TC_02LanguageLearning')
+data.setCell(21, 3, 497);
+window.suiteTableData['mysuite']= { tableData: data, tableDiv: 'times-div-mysuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-mysuite">
+              </div> <!-- times-div-mysuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-mysuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for mysuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-mysuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">8 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">TestCases.TC_03FillingForm</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">close_browser</span>
+                <br/>
+                <span class="ignored-method-name">driver_setup</span>
+                <br/>
+                <span class="ignored-method-name">driver_setup</span>
+                <br/>
+                <span class="ignored-method-name">close_browser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">TestCases.TC_02LanguageLearning</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">close_browser</span>
+                <br/>
+                <span class="ignored-method-name">close_browser</span>
+                <br/>
+                <span class="ignored-method-name">driver_setup</span>
+                <br/>
+                <span class="ignored-method-name">driver_setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-mysuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.TC_01WebDevelopmentCourses</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">driver_setup(edge)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">driver_setup(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">search</span>
+                <span class="method-start">60578 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">search</span>
+                <span class="method-start">60578 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">filters</span>
+                <span class="method-start">128253 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">filters</span>
+                <span class="method-start">128450 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">courses</span>
+                <span class="method-start">135115 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">courses</span>
+                <span class="method-start">135928 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">firstcourse</span>
+                <span class="method-start">140957 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">secondcourse</span>
+                <span class="method-start">142344 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">firstcourse</span>
+                <span class="method-start">142751 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.TC_02LanguageLearning</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">lang_learn</span>
+                <span class="method-start">143548 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.TC_01WebDevelopmentCourses</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">secondcourse</span>
+                <span class="method-start">144057 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.TC_02LanguageLearning</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">lang_learn</span>
+                <span class="method-start">145565 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">levels</span>
+                <span class="method-start">151973 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">languages</span>
+                <span class="method-start">153144 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">enterprise</span>
+                <span class="method-start">153991 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">levels</span>
+                <span class="method-start">154287 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">languages</span>
+                <span class="method-start">207883 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">enterprise</span>
+                <span class="method-start">218324 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.TC_03FillingForm</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">form</span>
+                <span class="method-start">229759 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">form</span>
+                <span class="method-start">230012 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">error_msg</span>
+                <span class="method-start">250644 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">error_msg</span>
+                <span class="method-start">250918 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.TC_01WebDevelopmentCourses</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">close_browser</span>
+                <span class="method-start">271268 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">close_browser</span>
+                <span class="method-start">271508 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
